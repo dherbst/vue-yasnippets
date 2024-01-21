@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: page
+# key: page
+# --
+<script setup>
+import { ref } from 'vue'
+
+</script>
+
+<template>
+<div class="container">
+
+</div>
+</template>
