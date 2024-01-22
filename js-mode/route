@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: route
+# key: route
+# --
+  {
+    path: '${1:path}',
+    name: '${2:name}',
+    component: () => import('@/views/${2:name}.vue'),
+    meta: { requiresLogin: true },
+  },
