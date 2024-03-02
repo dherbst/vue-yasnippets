@@ -4,10 +4,7 @@
 # --
     <div class="row my-3">
       <div class="col">
-        <label for="${1:id}" class="form-label"></label>
-        <input id="${1:id}" type="text" v-model="${3:model}" class="form-control" placeholder="" aria-describedby="${2:idHelp}" required>
-        <div id="${2:idHelp}" class="form-text">
-
-        </div>
+        <label for="${1:id}" class="form-label">${2:Label}</label>
+        <input id="$1" type="text" v-model="${3:model}" class="form-control" placeholder="$0" required>
       </div>
     </div>

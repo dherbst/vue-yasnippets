@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: vue-control-help
+# key: vue-control-help
+# --
+    <div class="row my-3">
+      <div class="col">
+        <label for="${1:id}" class="form-label">${2:label}</label>
+        <input id="$1" type="text" v-model="${3:model}" class="form-control" placeholder="" aria-describedby="${4:idHelp}" required>
+        <div id="$4" class="form-text">
+        $0
+        </div>
+      </div>
+    </div>
